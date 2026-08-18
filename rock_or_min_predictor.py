@@ -14,7 +14,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics  import accuracy_score
 
 #LOADING DATASET
-dataset = pd.read_csv('/content/sonar.csv', header = None)
+dataset = pd.read_csv('sonar.csv', header=None)
 dataset.head()
 
 dataset.shape
