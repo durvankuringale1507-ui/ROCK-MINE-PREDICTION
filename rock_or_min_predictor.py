@@ -32,7 +32,7 @@ dataset[60].value_counts()
 dataset.groupby(60).mean()
 
 #SEPRATING DATA INTO LABELS
-x = dataset.drop(columns = 60, axis = 1)
+x = dataset.drop(columns = 60)
 y = dataset[60]
 print(x,y)
 
